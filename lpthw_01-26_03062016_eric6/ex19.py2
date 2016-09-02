@@ -1,0 +1,56 @@
+def cheese_and_crackers (cheese_count,  box_of_crackers):
+#        print "You have %d cheese!"%cheese_count
+#        print "You have %d boxes of crackers!"%box_of_crackers
+    if cheese_count<=0 or box_of_crackers<=0:
+        print "You have %d cheese!"%cheese_count
+        print "You have %d boxes of crackers!"%box_of_crackers
+        print "That's not enough for party!"
+    else: 
+        print "You have %d cheese!"%cheese_count
+        print "You have %d boxes of crackers!"%box_of_crackers
+        print "That's enough for party!"
+        print "Get blanket!\n"
+
+#print "We can just give the function number directly:"
+#cheese_and_crackers(0, 30)
+#
+#print "Or, we can use variables from our script:"
+#amount_of_cheese = 10
+#amount_of_crackers = 0
+#
+#cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+#
+##Does making the variable amount_of_cheese change the variable cheese_count 
+##in the function? No
+#
+#print "We can even do math inside too:"
+#cheese_and_crackers(10+20,  5-5)
+#
+#print "And we can combine the two, variables and math:"
+#cheese_and_crackers(amount_of_cheese+100,  amount_of_crackers+1000)
+#
+#print 'We can now ask the user for the number of cheese and crackers'
+#cheese_and_crackers(int(raw_input("Cheese amount:")), int(raw_input("Crackers amount:")))
+#
+#print 'We can assign the function to a variable and simply call it by its new name'
+#foo = cheese_and_crackers
+#foo(20,30)
+#
+#print 'We can call the function in a loop, calling it 10 times'
+#amount_of_cheese = int(raw_input("Cheese amount:"))
+#amount_of_crakers = int(raw_input("Crackers amount:"))
+#iteration = int(raw_input("Number of iterations:"))
+#print ""
+#
+#for i in range(iteration):
+#    count=i
+#    print count+1
+##    print ""
+#    cheese_and_crackers(amount_of_cheese - i-1, amount_of_crakers  + i+1)
+ 
+print 'We can call the function in a loop, calling it 10 times'
+iteration = int(raw_input("Number of iterations:"))
+for i in range(iteration):
+    count=i
+    print count+1
+    cheese_and_crackers(int(raw_input("Cheese amount:")) - i-1,  int(raw_input("Crackers amount:")) + i+1)

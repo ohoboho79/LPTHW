@@ -1,0 +1,19 @@
+def cheese_and_crackers (cheese_count,  box_of_crackers):
+    if cheese_count==0:
+        print "That's enough for party!"
+        print "Get blanket!\n"
+    else: 
+        print "That's not enough for party!"
+
+
+print "We can just give the function number directly:"
+cheese_and_crackers(1, 30)
+
+#a = int(raw_input())
+#b = int(raw_input())
+#print a
+#print b
+#if a>b:
+#    print "tashak"
+#else:
+#    print "dva tashaka"

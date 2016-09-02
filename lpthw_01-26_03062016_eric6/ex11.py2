@@ -1,0 +1,14 @@
+print "How old are you? " , 
+age = raw_input()
+print "How tall are you?"
+height = raw_input()
+print "How much do you weight?"
+weight = int(raw_input())
+
+#V konzolata , pred %r se otpechatva "u" ot unicode
+#"When my strings print out there's a 'u' in front of them, as in u'35'.
+#That's how Python tells you that the string is Unicode. 
+#Use a %s format instead and you'll see it printed like normal."
+print "So, you're %s old, %r cm tall and %r heavy." % (
+            age,  height,  weight)
+

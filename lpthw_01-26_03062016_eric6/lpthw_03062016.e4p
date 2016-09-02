@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project lpthw_03062016 -->
+<!-- Saved: 2016-07-15, 10:49:13 -->
+<!-- Copyright (C) 2016 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>4087b5cd5af82fcb34f762fb7a4e49b4c1f2ba06</Hash>
+  <ProgLanguage mixed="0">Python2</ProgLanguage>
+  <ProjectType>Console</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="-1"/>
+  <Sources>
+    <Source>45.py2</Source>
+    <Source>__init__.py</Source>
+    <Source>ex01.py2</Source>
+    <Source>ex02.py2</Source>
+    <Source>ex03.py2</Source>
+    <Source>ex04.py2</Source>
+    <Source>ex05.py2</Source>
+    <Source>ex06.py2</Source>
+    <Source>ex07.py2</Source>
+    <Source>ex08.py2</Source>
+    <Source>ex09.py2</Source>
+    <Source>ex10.py2</Source>
+    <Source>ex11.py2</Source>
+    <Source>ex12.py2</Source>
+    <Source>ex13.py2</Source>
+    <Source>ex14.py2</Source>
+    <Source>ex15.py2</Source>
+    <Source>ex16.py2</Source>
+    <Source>ex17.py2</Source>
+    <Source>ex18.py2</Source>
+    <Source>ex19.py2</Source>
+    <Source>ex20.py2</Source>
+    <Source>ex21.py2</Source>
+    <Source>ex24.py2</Source>
+    <Source>ex25.py2</Source>
+    <Source>ex26.py2</Source>
+  </Sources>
+  <Forms/>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py2" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw2" type="SOURCES"/>
+  </FiletypeAssociations>
+</Project>

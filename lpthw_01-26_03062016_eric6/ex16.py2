@@ -1,0 +1,59 @@
+from sys import argv
+#Varian 1 za printirane na documet s text editor
+import webbrowser
+
+#Varian 2 za printirane na documet s text editor
+#import os
+
+script, filename = argv
+
+print "We're gpoing to erase %r." % filename
+print "If you don't want that, hit CTRL-C (^C)."
+print "If you do want that, hit RETURN."
+
+raw_input("?")
+
+print "Opening the file ..."
+#target = open(filename, 'w') #writing to the file
+target = open(filename, 'a') #appending to the file
+
+#print "Truncating the file. Goodby!"
+#target.truncate()
+
+print "Now I'm going to ask you for three lines."
+
+line1 = raw_input("line1: ")
+line2 = raw_input("line2: ")
+line3 = raw_input("line3: ")
+
+print "I'm going to write these to the file."
+
+#target.write(line1)
+#target.write("\n")
+#target.write(line2)
+#target.write("\n")
+#target.write(line3)
+#target.write("\n")
+
+
+target.write("%s \n%s \n%s\n" % (line1, line2, line3))
+
+#Printira document v konzolata
+target = open(filename)
+for line in target:
+    print line.rstrip()
+
+#Zatvaria documenta i go zapzva
+#print "And finally, we close it."
+target.close()
+print "Closed or not : ", target.closed
+
+#Varian 1 za printirane na documet s text editor
+webbrowser.open ("ex16.txt")
+
+#Varian 2 za printirane na documet s text editor
+#target = "ex16.txt"
+#os.system ('kate '+ target)
+
+target.close()
+print "Closed or not : ", target.closed
